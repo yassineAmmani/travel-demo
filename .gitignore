@@ -1,4 +1,4 @@
-.DS_Store
+git remote add origin git@github.com:yassineAmmani/travel-demo.git.DS_Store
 node_modules
 /dist
 

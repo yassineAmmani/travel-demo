@@ -19,8 +19,8 @@ const routes = [
   },
   {
     path: '/tours',
-    name: 'modal',
-    component: () => import('../views/Mo.vue')
+    name: 'tours',
+    component: () => import('../views/tours.vue')
   },
   {
     path: '/culture',
