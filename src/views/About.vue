@@ -13,17 +13,8 @@
   </div>
   <br/>
   
-  <div class="loader">
  
-      <h2 class="static-text"><span>I'm a</span></h2>
-      <ul class="dynamic-text">
-        <li><span><h1>YouTuber</h1></span></li>
-        <li><span><h1>Devloper</h1></span></li>
-        <li><span><h1>Freelancer</h1></span></li>
-      </ul>
-    
-    <h1 class="anim">Loading...</h1>
-  </div>
+
 </div>
 </template>
 
@@ -104,61 +95,9 @@
   margin: 5px 0;
   line-height: 90px;
 }
-@keyframes slide{
-  from{
-    0%{
-      left: 0;
-    }
-  }
-  100%{
-    top: -360px;
-  }
-}
 
 
 
-
-
-.loader{
-  position: relative;
-  -webkit-box-reflect: below -30px linear-gradient(transparent,#0003);
-}
-.loader::before{
-  content: "";
-  position: relative;
-  top: 0;
-  right: 0;
-  width: 2px;
-  height: 100%;
-  background: #03e9f4;
-  animation: blinkCusor 0.8s steps(3) infinite;
-}
-@keyframes blinkCusor {
-  0%,75%{
-    opacity: 1;
-  }
-  76%,100%{
-    opacity: 0;
-  }
-}
-
-.loader h1{
-  position: relative;
-  color:#03e9f4;
-  letter-spacing: 5px;
-  font-size: 4em;
-  text-transform: uppercase;
-  animation: typing 8s steps(10) infinite;
-  overflow: hidden;
-}
-@keyframes typing{
-  0%,90%,100%{
-    width: 0;
-  }
-  30%,60%{
-    width: 393px;
-  }
-}
 
 
 </style>

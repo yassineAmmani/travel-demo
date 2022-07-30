@@ -110,7 +110,7 @@
     padding-bottom: 40px;
 }
 /*END FOOTER SOCIAL DESIGN*/
-.single_footer,
+
 @media only screen and (max-width:768px) { 
 .single_footer{margin-bottom:30px;}
 }
