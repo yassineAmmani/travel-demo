@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import HomeView from '../views/Home.vue'
 
 const routes = [
   {
@@ -8,29 +8,24 @@ const routes = [
     component: HomeView
   },
   {
-    path: '/about',
-    name: 'about',
-    component: () => import('../views/AboutView.vue')
-  },
-  {
-    path: '/modal',
-    name: 'modal',
-    component: () => import('../views/Mo.vue')
-  },
-  {
     path: '/tours',
     name: 'tours',
-    component: () => import('../views/tours.vue')
+    component: () => import('../views/Tours.vue')
   },
   {
-    path: '/culture',
-    name: 'modal',
-    component: () => import('../views/Mo.vue')
+    path: '/trip',
+    name: 'Trip',
+    component: () => import('../views/Trip.vue')
   },
   {
     path: '/story',
-    name: 'modal',
+    name: 'Story',
     component: () => import('../views/Story.vue')
+  },
+  {
+    path: '/about',
+    name: 'about',
+    component: () => import('../views/About.vue')
   }
 ]
 

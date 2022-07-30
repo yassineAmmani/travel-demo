@@ -2,11 +2,10 @@
     
   <nav @click="isHome">
     <router-link to="/">
-      <img alt="home" :src="imgUrl" class="home">
-        
+         <img alt="home" :src="imgUrl" class="home">
     </router-link> |
     <router-link to="/tours">Tours</router-link> |
-    <router-link to="/activities">Activities</router-link> |
+    <router-link to="/trip">OneDay Trip</router-link> |
      <router-link to="/about">About Us</router-link> 
   </nav>
   <router-view/>
@@ -21,8 +20,7 @@ import { useRouter,useRoute } from 'vue-router'
      data(){
          return{ 
              imgUrl : new URL('../assets/home-green.svg', import.meta.url).href
-             }
-         
+        }
   },
 
   methods: {
